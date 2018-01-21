@@ -7,3 +7,16 @@
 //
 
 import Foundation
+class Section {
+    var title : String?
+    var list : [String]?
+    var isColleps : Bool?
+    init() {
+    }
+    
+    init(title : String? , list : [String]?, isColleps : Bool?) {
+        self.title = title
+        self.list = list
+        self.isColleps = isColleps
+    }
+}
